@@ -1,7 +1,7 @@
 import cmd
 import sys
 from bs_socket_service.mods import all_modules, module_list
-from websploit.core.utils import CPrint
+
 
 completions = [
     'target',
@@ -15,7 +15,6 @@ completions = [
 
 class Module(cmd.Cmd):
     parameters = {}
-    cp = CPrint()
 
 
     def do_execute(self):

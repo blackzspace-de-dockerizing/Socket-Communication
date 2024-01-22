@@ -21,3 +21,4 @@ node_modules/
 *.tmp
 *.swp
 *.bak
+env
