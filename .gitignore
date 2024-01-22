@@ -1,0 +1,23 @@
+# Ignore build output
+build/
+.env
+# Ignore dependencies
+node_modules/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
